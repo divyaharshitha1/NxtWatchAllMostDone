@@ -1,0 +1,32 @@
+a {
+  text-decoration: none;
+}
+span {
+  padding-left: 10px;
+}
+
+.animate:hover {
+  animation: rotate 3s;
+}
+
+.black {
+  color: black;
+}
+.white {
+  color: white;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotateZ(90deg);
+  }
+  100% {
+    transform: rotateZ(-90deg);
+  }
+}
+
+.popup-content {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
